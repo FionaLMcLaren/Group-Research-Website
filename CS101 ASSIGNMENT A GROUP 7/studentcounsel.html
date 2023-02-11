@@ -1,0 +1,187 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <link rel="stylesheet" href="cs101group7.css">
+  <meta charset="utf-8" />
+  <title>Students: Online Counselling</title>
+
+<script>
+
+  function toggleNavPage() {
+      var nav = document.getElementById("navpage");
+      var decider = document.getElementById("check");
+      if(decider.checked){
+          nav.style.display = "block";
+          document.body.style.height = "100vh";
+          document.body.style.overflowY = "hidden";
+          document.body.style.paddingRight = "20px";
+
+      } else {
+              nav.style.display = "none";
+              document.body.style.overflowY = "auto";
+              document.body.style.height = "";
+              document.body.style.paddingRight = "";
+
+      }
+  }
+  </script>
+
+
+</head>
+
+
+
+<body>
+
+  <div class="navigation">
+
+    <div class="navigation-button">
+
+      <label for="check">
+        <input type="checkbox" id="check" onclick="toggleNavPage()">
+        <span class="navspan"></span>
+        <span class="navspan"></span>
+        <span class="navspan"></span>
+      </label>
+
+    </div>
+
+
+
+
+
+    </div>
+
+
+
+
+
+                    <div id="navpage">
+                      <div class="navpagecontents">
+                        <div>
+                          <h1 class="navhead">Where do you want to go?</h1>
+                          <div class="navpagelinks">
+
+                            <div>
+                          <span class="navsubhead">
+                            <h3>Teachers</h3>
+                          </span>
+                          <div>
+                          <a href="teacherback.html">Background and History</a>
+                          <br><a href="teacherproblem.html">Challenges</a>
+                          <br><a href="teachersolutions.html">Innovations and Solutions</a>
+                        </div>
+                          </div>
+
+                          <div>
+                        <span class="navsubhead">
+                          <h3>Primary Schools</h3>
+                        </span>
+                        <div>
+                        <a href="primaryback.html">Background and History</a>
+                        <br><a href="primaryproblem.html">Challenges</a>
+                        <br><a href="primarysolutions.html">Innovations and Solutions</a>
+                      </div>
+                        </div>
+
+                        <div>
+                      <span class="navsubhead">
+                        <h3>Higher Education</h3>
+                      </span>
+                      <div>
+                      <a href="higherback.html">Background and History</a>
+                      <br><a href="higherproblem.html">Challenges</a>
+                      <br><a href="highersolutions.html">Innovations and Solutions</a>
+                    </div>
+                      </div>
+
+                      <div>
+                    <span class="navsubhead">
+                      <h3>Students</h3>
+                    </span>
+                    <div>
+                    <a href="studentonline.html">Online Learning and Mental Health</a>
+                    <br><a href="studentsocial.html">Students' Social Life</a>
+                    <br><a href="studentcounsel.html">Online Counselling for Students</a>
+                  </div>
+                    </div>
+
+                          </div>
+                          <center><h5><a href="bib.html" class="linkbutton">Bibliography</a></h5></center>
+                        </div>
+                      </div>
+                    </div>
+
+
+  <div class="container">
+
+    <div class="content">
+
+
+      <div class="titleContainer">
+        <div class="circle"></div>
+        <h1>Students</h1>
+        <h2>Online Counselling</h2>
+        <br>
+
+          <div class="indexContainer">
+            <a href="#section1">01 / Background and History</a>
+            <br><a href="#section2">02 / Challenges</a>
+            <br><a href="#section3">03 / Innovations</a>
+          </div>
+      </div></div>
+
+
+
+      <div class="main-content">
+        <h5 id="section1">Background and History</h5>
+  <p>
+    With the pandemic taking such a toll on mental health over the past couple of years there has been a new demand for online therapy.
+  </p>
+
+  <h5 id="section2">Challenges</h5>
+  <p>
+A study done in the Netherlands found that before the pandemic less than 20% of mental health professionals used e-mental health tools for their patients. Almost 30% of them had almost none at all.
+  </p>
+  <div class="blockquote-wrapper">
+      <div class="blockquote">
+        <h1>
+           Less than 20% of mental health professionals used <span class="quotehighlight">e-mental health tools</span> for their patients.
+        </h1>
+      </div>
+    </div><br><br>
+
+  <h5 id="section3">Innovations</h5>
+  <p>
+    Online mental health services saw a massive jump especially for struggling students as it provided a socially distanced and convenient service in an extremely difficult and stressful time. The increase in zoom or online therapy made it possible for students to arrange more flexible appointments to work around their online school schedules, it also removed the need for transport making it easier for many struggling or disabled students. During the pandemic the study found that over 80% of the mental health care professionals now use e-tools daily with the number that almost never use them decreasing to less than 5%.
+
+  </p>
+  <div class="blockquote-wrapper">
+      <div class="blockquote">
+        <h1>
+          The increase in zoom or online therapy made it possible for students to arrange <span class="quotehighlight">more flexible appointments </span> to work around their online school schedules
+        </h1>
+      </div>
+            </div><br><br>
+
+
+
+
+
+
+
+    <br>  </div>
+    </div>
+
+  </div>
+
+  <a class="totop" href="#">
+    <span>🡡</span>
+  </a>
+
+</body>
+
+</html>

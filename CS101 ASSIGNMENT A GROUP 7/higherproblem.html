@@ -1,0 +1,165 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <link rel="stylesheet" href="cs101group7.css">
+  <meta charset="utf-8" />
+  <title>Higher Education: Problems</title>
+
+<script>
+
+  function toggleNavPage() {
+      var nav = document.getElementById("navpage");
+      var decider = document.getElementById("check");
+      if(decider.checked){
+          nav.style.display = "block";
+          document.body.style.height = "100vh";
+          document.body.style.overflowY = "hidden";
+          document.body.style.paddingRight = "20px";
+
+      } else {
+              nav.style.display = "none";
+              document.body.style.overflowY = "auto";
+              document.body.style.height = "";
+              document.body.style.paddingRight = "";
+
+      }
+  }
+  </script>
+
+
+</head>
+
+
+
+<body>
+
+  <div class="navigation">
+
+    <div class="navigation-button">
+
+      <label for="check">
+        <input type="checkbox" id="check" onclick="toggleNavPage()">
+        <span class="navspan"></span>
+        <span class="navspan"></span>
+        <span class="navspan"></span>
+      </label>
+
+    </div>
+
+
+
+
+
+    </div>
+
+
+
+
+
+                    <div id="navpage">
+                      <div class="navpagecontents">
+                        <div>
+                          <h1 class="navhead">Where do you want to go?</h1>
+                          <div class="navpagelinks">
+
+                            <div>
+                          <span class="navsubhead">
+                            <h3>Teachers</h3>
+                          </span>
+                          <div>
+                          <a href="teacherback.html">Background and History</a>
+                          <br><a href="teacherproblem.html">Challenges</a>
+                          <br><a href="teachersolutions.html">Innovations and Solutions</a>
+                        </div>
+                          </div>
+
+                          <div>
+                        <span class="navsubhead">
+                          <h3>Primary Schools</h3>
+                        </span>
+                        <div>
+                        <a href="primaryback.html">Background and History</a>
+                        <br><a href="primaryproblem.html">Challenges</a>
+                        <br><a href="primarysolutions.html">Innovations and Solutions</a>
+                      </div>
+                        </div>
+
+                        <div>
+                      <span class="navsubhead">
+                        <h3>Higher Education</h3>
+                      </span>
+                      <div>
+                      <a href="higherback.html">Background and History</a>
+                      <br><a href="higherproblem.html">Challenges</a>
+                      <br><a href="highersolutions.html">Innovations and Solutions</a>
+                    </div>
+                      </div>
+
+                      <div>
+                    <span class="navsubhead">
+                      <h3>Students</h3>
+                    </span>
+                    <div>
+                    <a href="studentonline.html">Online Learning and Mental Health</a>
+                    <br><a href="studentsocial.html">Students' Social Life</a>
+                    <br><a href="studentcounsel.html">Online Counselling for Students</a>
+                  </div>
+                    </div>
+
+                          </div>
+                          <center><h5><a href="bib.html" class="linkbutton">Bibliography</a></h5></center>
+                        </div>
+                      </div>
+                    </div>
+
+
+  <div class="container">
+
+    <div class="content">
+
+
+      <div class="titleContainer">
+        <div class="circle"></div>
+        <h1>Higher Education</h1>
+        <h2>Problems</h2>
+        <br>
+
+        <div class="indexContainer">
+          <a href="#section1">01 / Digital Divide</a>
+          <br><a href="#section2">02 / Boredom</a>
+        </div>
+      </div>
+
+
+      <div class="main-content">
+        Despite the huge advancement in technology the covid 19 pandemic has had, there are also negatives to consider.
+        <h5 id="section1">Digital Divide</h5>
+<p>In many countries, internet access is not sufficient to engage in online learning.
+  <br>According to the English Institute of Fiscal Studies, students in better-off households were spending up to 30% more time online completing schoolwork than the lowest fifth of students.
+  <br>This is known as a digital divide.</p>
+  <div class="blockquote-wrapper">
+    <div class="blockquote">
+      <h1>
+        In many countries, <span class="quotehighlight">internet access is not sufficient</span> to engage in online learning.
+      </h1>
+    </div>
+  </div><br><br>
+
+  <h5 id="section2">Boredom</h5>
+  <p>The use of technology in learning was also deemed as “boring” by 31% of students.</p>
+
+    <br>  </div>
+    </div>
+
+  </div>
+
+  <a class="totop" href="#">
+    <span>🡡</span>
+  </a>
+
+</body>
+
+</html>
